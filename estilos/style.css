@@ -21,5 +21,44 @@ body, html {
 main {
     width: 100vw;
     height: 100vh;
+
+    position: relative;
+}
+
+section#login {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    overflow: hidden;
+
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.400);
+    
+}
+
+div#imagem {
+    background-color: #5F2C82;    
+    background-image: url(../imagens/fundo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;  
+
+    display: block;
+
+}
+
+div#formulario {
+    padding: 10px;
+
+    display: block;
 }
 
