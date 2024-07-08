@@ -41,7 +41,7 @@ Grandes telas: acima de 1200px
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) {
     
     /* Versão para DESKTOP*/
 
@@ -55,33 +55,6 @@ Grandes telas: acima de 1200px
     }
 
     div#imagem {
-        float: left;
-        width: 50%;
-        height: 100%;
-    }
-
-    div#formulario {
-        float: right;
-        width: 50%;
-        height: 100%;
-    }
-
-}
-
-@media screen and (min-width: 1200px) {
-    
-    /*Versão para GRANDES TELAS*/
-
-    body, html {
-        background-image: linear-gradient(to top, #49A09D, #5F2C82);
-    }
-
-    section#login {
-        width: 800px;
-        height: 300px;
-    }
-
-    div#imagem {
         float: right;
         width: 50%;
         height: 100%;
@@ -94,3 +67,4 @@ Grandes telas: acima de 1200px
     }
 
 }
+
