@@ -103,6 +103,8 @@ div.campo > input {
     border: 0px;
     padding: 4px;
     width: calc(100% - 44px);
+
+    transform: translate(0px, -3px);
 }
 
 div.campo label {
