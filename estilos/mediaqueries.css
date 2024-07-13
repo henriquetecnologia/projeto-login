@@ -39,6 +39,11 @@ Grandes telas: acima de 1200px
         height: 100%;
     }
 
+    div#formulario > p {
+        margin: 20px 0px;
+    }
+
+
 }
 
 @media screen and (min-width: 992px) {
